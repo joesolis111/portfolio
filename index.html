@@ -21,18 +21,34 @@
     ></script>
     <link href="styles.css" rel="stylesheet" />
     <title>Home</title>
-    <nav class="bg-light border navbar navbar-expand-md navbar-light">
-      <div class="container-fluid">
-        <a type="button" class="nes-btn" href="index.html">Home</a>
-        <a type="button" class="nes-btn is-error">Projects</a>
-        <a type="button" class="nes-btn">Experience</a>
-        <a type="button" class="nes-btn is-error">Education</a>
-        <a type="button" class="nes-btn">Links</a>
-      </div>
-    </nav>
   </head>
   <body>
-    <div class="nes-container with-title is-centered">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="nes-container is-rounded is-dark navbar-container">
+        <a class="navbar-brand" style="color: white;">Portfolio</a>
+        <button
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          data-bs-target="#navbar"
+          data-bs-toggle="collapse"
+          type="button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav me-auto mt-2">
+            <li><a class="nes-btn" href="index.html">Home</a></li>
+            <li><a class="nes-btn is-error" href="projects.html">Projects</a></li>
+            <li><a class="nes-btn" href="experience.html">Experience</a></li>
+            <li><a class="nes-btn is-error" href="education.html">Education</a></li>
+            <li><a class="nes-btn" href="assets/JoelSolisCV.pdf">CV</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="nes-container with-title">
       <span class="nes-text is-error">Welcome to my portfolio<br /></span>
       <span class="nes-text is-error">Joel Solís Avendaño</span>
     </div>

@@ -1,3 +1,26 @@
-  html, body, pre, code, kbd, samp {
-          font-family: "Press Start 2P";
-      }
+html,
+body,
+pre,
+code,
+kbd,
+samp {
+  font-family: "Press Start 2P";
+}
+
+.navbar-nav {
+  gap: 50px;
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: none;
+}
+
+body, html {
+  margin: 0;
+  background-color: #222222;
+}
+
+.is-error, .nes-btn {
+  color: black;
+}
