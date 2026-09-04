@@ -25,14 +25,35 @@ body, html {
   color: black;
 }
 
-.intro {
-  display: grid;
-  max-width: 30%;;
-}
-
 .portrait {
   max-width: 100%;
   width: 600px;
   height: auto;
+  margin-top: -5px;
   margin-left: 10px;
+}
+
+.about {
+  font-size: 20px;
+}
+
+.intro-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.container-intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-intro {
+  max-width: 40%;
+  height: auto;
+}
+
+img:hover, .center-intro:hover {
+  box-shadow: 10px 10px white;
 }
