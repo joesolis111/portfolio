@@ -23,6 +23,7 @@
       rel="stylesheet"
     />
     <link href="styles.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
     <title>Projects</title>
   </head>
   <body>
@@ -80,5 +81,47 @@
         </div>
       </div>
     </nav>
+    <div class="center-projects">
+      <section class="nes-container is-dark">
+        <section class="message-list">
+          <section class="message -left">
+            <i class="nes-icon coin is-large"></i>
+            <div class="nes-balloon from-left is-dark">
+              <p id="projects_intro">Take a look at my projects!</p>
+            </div>
+          </section>
+        </section>
+      </section>
+      <div class="nes-container is-rounded is-dark is-centered project-buttons">
+        <button
+          type="button"
+          class="nes-btn is-warning"
+          onclick="show_all_projects()"
+        >
+          All
+        </button>
+        <button
+          type="button"
+          class="nes-btn is-warning"
+          onclick="show_personal()"
+        >
+          Personal Projects
+        </button>
+        <button
+          type="button"
+          class="nes-btn is-warning"
+          onclick="show_hackathon_projects()"
+        >
+          Hackathon Projects
+        </button>
+        <button
+          type="button"
+          class="nes-btn is-warning"
+          onclick="show_coursework()"
+        >
+          Relevant Coursework
+        </button>
+      </div>
+    </div>
   </body>
 </html>
