@@ -33,15 +33,11 @@ body, html {
   margin-left: 10px;
 }
 
-.about {
-  font-size: 20px;
-}
-
 .intro-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 30px;
+  gap: 25px;
 }
 
 .container-intro {
@@ -50,10 +46,22 @@ body, html {
 }
 
 .center-intro {
-  max-width: 40%;
+  max-width: 35%;
   height: auto;
+
+}
+
+.about {
+  font-size: 18px;
+  text-align: start;
 }
 
 img:hover, .center-intro:hover {
   box-shadow: 10px 10px white;
+}
+
+li::marker {
+  font-size: 3rem;
+  line-height: 1;
+  color: yellow;
 }
