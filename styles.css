@@ -79,6 +79,7 @@ li::marker {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .projects {
@@ -119,4 +120,8 @@ li::marker {
 
 .project-title {
   font-size: 35px;
+}
+
+.experience {
+  gap: 3vh;
 }
