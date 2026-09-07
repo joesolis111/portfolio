@@ -125,3 +125,23 @@ li::marker {
 .experience {
   gap: 3vh;
 }
+
+.education-img {
+  height: 25%;
+  width: 25%;
+}
+
+.education {
+  width: 75%;
+}
+
+.education-content {
+  display: flex;
+
+}
+
+.education-description {
+  flex: 1;
+  width: fit-content;
+  height: fit-content;
+}
