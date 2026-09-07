@@ -3,7 +3,7 @@ const initial_intro_text = intro.textContent;
 
 function show(all) {
   Array.from(all).forEach((element) => {
-    element.style.display = "block";
+    element.style.display = "flex";
   });
 }
 

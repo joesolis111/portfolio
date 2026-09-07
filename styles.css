@@ -71,6 +71,8 @@ li::marker {
   flex-direction: row;
   gap: 30px;
   width: 50%;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
 }
 
 .center-page {
@@ -80,22 +82,41 @@ li::marker {
 }
 
 .projects {
+  width: 100%;
   margin-top: 3vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.5vh;
+  gap: 3vh;
 }
 
 .project {
-  
+  display: flex;
+  flex: 0 0 50%;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+
 }
 
 .break {
   flex-basis: 100%;
 }
 
-.hackathon, .personal, .coursework {
+.project-img {
+  width: 75%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 2vh;
+}
 
+.languages {
+  width: fit-content;
+}
+
+.project-title {
+  font-size: 35px;
 }
