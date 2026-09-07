@@ -56,7 +56,7 @@ body, html {
   text-align: start;
 }
 
-img:hover, .center-intro:hover {
+img:hover, .center-intro:hover, .project:hover {
   box-shadow: 10px 10px white;
 }
 
@@ -73,12 +73,29 @@ li::marker {
   width: 50%;
 }
 
-.center-projects {
+.center-page {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .projects {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5vh;
+}
+
+.project {
   
+}
+
+.break {
+  flex-basis: 100%;
+}
+
+.hackathon, .personal, .coursework {
+
 }
